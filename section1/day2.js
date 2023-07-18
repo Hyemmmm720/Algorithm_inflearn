@@ -5,9 +5,9 @@ function solution(a, b, c) {
 
   // 모든 변의 합과 가장 긴 변의 합을 뺀 나머지가 가장 긴 변보다 크면 삼각형이 가능!
   if (sum - max <= max) {
-    answer = "No"; // 가장 긴 변보다 작거나 같으면 No
+    answer = "No"; // 가장 긴 변보다 작거나 같으면 No 출력
   } else {
-    answer = "Yes"; // 가장 긴 변보다 길면 Yes
+    answer = "Yes"; // 가장 긴 변보다 길면 Yes 출력
   }
   return answer;
 }
