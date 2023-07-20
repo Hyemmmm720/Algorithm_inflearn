@@ -1,7 +1,7 @@
 // 최솟값 구하기
 
-function solution(arr) {
-  let answer = Math.min(...arr);
+function solution(array) {
+  let answer = Math.min(...array);
   return answer;
 }
 
@@ -22,3 +22,9 @@ function solution(arr) {
 
 let arr = [5, 7, 1, 3, 2, 9, 11];
 console.log(solution(arr));
+
+// 선생님 답안 2
+function solution(arr) {
+  let answer = Math.min.apply(null, arr);
+  return answer;
+}
