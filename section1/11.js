@@ -17,7 +17,7 @@ function solution(s) {
   let answer = 0;
   for (let x of s) {
     //let num=x.charCodeAt();
-    //if(num>=65 && num<=90) answer++;
+    //if(num>=65 && num<=90) answer++; 아스키넘버
     if (x === x.toUpperCase()) answer++;
   }
 
