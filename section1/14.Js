@@ -11,5 +11,3 @@ function solution(s) {
   }
   return answer;
 }
-
-// 선생님 답안
