@@ -5,7 +5,7 @@ function solution(arr) {
   let sum = 0,
     min = Number.MAX_SAFE_INTEGER;
   for (let item of arr) {
-    if (item % 2 === 1) sum += item;
+    if (item % 2 === 1) sum += item; // 홀수
     if (item < min) min = item;
 
     console.log(min); // 77, 38, 38, 38, 12, 12, 12

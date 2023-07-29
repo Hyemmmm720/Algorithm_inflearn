@@ -13,6 +13,7 @@ console.log(solution(array));
 function solution(arr) {
   let answer,
     min = Number.MAX_SAFE_INTEGER;
+  // Number.MAX_SAFE_INTEGER 상수는 JavaScript에서 안전한 최대 정수값을 나타냄
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] < min) min = arr[i];
   }
