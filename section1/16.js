@@ -1,6 +1,7 @@
 // 중복 문자 제거
 function solution(s) {
   let answer = "";
+  // 반복문을 돌려서 indexOf값에 해당 글자가 있다면 제거!
   for (let i = 0; i < s.length; i++) {
     console.log(s[i], i, s.indexOf(s[i]));
     if (i === s.indexOf(s[i])) {
