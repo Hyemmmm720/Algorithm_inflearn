@@ -1,5 +1,7 @@
 // 1부터 n까지의 합 출력하기
+// 자연수 n의 값을 입력받아 1부터 n까지의 합을 출력하기
 
+// 내 풀이
 function solution(n) {
   let answer = 0;
   for (let i = 0; i <= n; i++) {
@@ -20,5 +22,3 @@ function solution(n) {
 
   return answer;
 }
-
-console.log(solution(10));

@@ -1,4 +1,7 @@
 // 삼각형 판별하기
+// 길이가 서로 다른 A, B, C 세 개의 막대로 삼각형을 만들 수 있으면 "Yes"를 출력하고, 아니면 "No"를 출력하기
+
+// 내 풀이
 function solution(a, b, c) {
   let max = Math.max(a, b, c); // 가장 긴 변 구하기
   let sum = a + b + c;
@@ -18,10 +21,10 @@ console.log(solution(13, 33, 25));
 function solution(a, b, c) {
   let answer = "YES",
     max;
-  let tot = a + b + c;
+  let total = a + b + c;
   if (a > b) max = a;
   else max = b;
   if (c > max) max = c;
-  if (tot - max <= max) answer = "NO";
+  if (total - max <= max) answer = "NO";
   return answer;
 }
