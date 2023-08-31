@@ -1,4 +1,5 @@
 // 일곱난장이
+// 9개의 인자를 전달받고 그 중 7개 숫자의 합이 100이 되는 조합 찾기
 function solution(arr) {
   const targetSum = 100;
   let selectedNumbers = [];
