@@ -1,4 +1,7 @@
 // 가장 긴 문자열
+// n개의 문자열을 입력 받고 그 중 가장 긴 문자열을 출력하기
+
+//내 풀이
 function solution(s) {
   let answer = "",
     max = 0;
