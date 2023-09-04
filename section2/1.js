@@ -1,17 +1,11 @@
 // 큰 수 출력하기
-function solution(arr) {
-  let answer = [];
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] > arr[i - 1]) answer.push(arr[i]);
-  }
-  return answer;
-}
+// n개의 정수를 입력받아, 자신의 바로 앞 수보다 큰 수만 출력하기(이때 첫번째 수는 무조건 출력)
 
-// 선생님 답안
+// 내 풀이
 function solution(arr) {
   let answer = [];
   answer.push(arr[0]);
-  for (let i = 1; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (arr[i] > arr[i - 1]) answer.push(arr[i]);
   }
   return answer;

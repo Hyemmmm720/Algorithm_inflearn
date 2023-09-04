@@ -1,4 +1,7 @@
 // 중복 단어 제거
+// n개의 문자열이 입력되면 중복된 문자열은 제거하고 출력하기(출력하는 문자열은 원래 입력순서를 유지)
+
+//
 function solution(str) {
   let answer = [];
   for (let i = 0; i < str.length; i++) {
