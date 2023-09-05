@@ -1,4 +1,7 @@
 // 가위바위보
+// A, B 두 사람이 가위바위보 게임을 한다. 총 n번의 게임을 해서 A가 이기면 A를 출력하고 B가 이기면 B를 출력하고 비길 경우 D를 출력한다.(1:가위 2:바위 3:보)
+
+// 내 풀이
 function solution(a, b) {
   let answer = "";
   for (let i = 0; i < 5; i++) {
@@ -23,6 +26,7 @@ function solution(a, b) {
 let a = [2, 3, 3, 1, 3];
 let b = [1, 1, 2, 2, 3];
 console.log(solution(a, b));
+
 // 선생님 답안
 function solution(A, B) {
   let answet = "";
